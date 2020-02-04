@@ -22,3 +22,11 @@ Store.create(
   womens_apparel: false)
 
 puts Store.count
+
+
+# in psql postgres then \c ar_exercises
+# SELECT count(*) FROM stores; 
+
+# count 
+# -------
+#      3
