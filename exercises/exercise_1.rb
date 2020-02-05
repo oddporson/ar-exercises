@@ -21,7 +21,7 @@ Store.create(
   mens_apparel: true,
   womens_apparel: false)
 
-puts Store.count
+puts "There are #{Store.count} stores in total."
 
 
 # in psql postgres then \c ar_exercises
