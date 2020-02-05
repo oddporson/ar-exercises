@@ -11,4 +11,4 @@ puts "----------"
 @store1.update(id: 1)
 @store1.update(name: "Vancouver")
 
-puts @store1
+puts "This is @store1 --> #{@store1}."
